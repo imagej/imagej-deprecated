@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<parent>
+		<groupId>net.imagej</groupId>
+		<artifactId>pom-imagej</artifactId>
+		<version>11.4.0</version>
+		<relativePath />
+	</parent>
+
+	<artifactId>imagej-deprecated</artifactId>
+	<version>0.1.0-SNAPSHOT</version>
+
+	<name>ImageJ Deprecated</name>
+	<description>Deprecated ImageJ packages.</description>
+	<inceptionYear>2009</inceptionYear>
+
+	<developers>
+		<developer>
+			<id>dietzc</id>
+			<name>Christian Dietz</name>
+			<email>christian.dietz@uni-konstanz.de</email>
+			<url>http://www.informatik.uni-konstanz.de/berthold/mitglieder/christian-dietz/</url>
+			<organization>University of Konstanz</organization>
+			<organizationUrl>http://www.informatik.uni-konstanz.de/</organizationUrl>
+			<timezone>+1</timezone>
+		</developer>
+		<developer>
+			<id>ctrueden</id>
+			<name>Curtis Rueden</name>
+			<email>ctrueden@wisc.edu</email>
+			<url>http://loci.wisc.edu/people/curtis-rueden</url>
+			<organization>UW-Madison LOCI</organization>
+			<organizationUrl>http://loci.wisc.edu/</organizationUrl>
+			<timezone>-6</timezone>
+		</developer>
+		<developer>
+			<id>hornm</id>
+			<name>Martin Horn</name>
+			<email>martin.horn@uni-konstanz.de</email>
+			<url>http://www.informatik.uni-konstanz.de/berthold/mitglieder/martin-horn/</url>
+			<organization>University of Konstanz</organization>
+			<organizationUrl>http://www.informatik.uni-konstanz.de/</organizationUrl>
+			<timezone>+1</timezone>
+		</developer>
+	</developers>
+	<contributors>
+		<contributor>
+			<name>Barry DeZonia</name>
+			<url>http://loci.wisc.edu/people/barry-dezonia</url>
+			<organization>UW-Madison LOCI</organization>
+			<organizationUrl>http://loci.wisc.edu/</organizationUrl>
+			<timezone>-6</timezone>
+		</contributor>
+		<contributor>
+			<name>Jonathan Hale</name>
+			<email>squareys@googlemail.com</email>
+			<url>http://squareys.tumblr.com/</url>
+			<organization>University of Konstanz</organization>
+			<organizationUrl>http://www.informatik.uni-konstanz.de/</organizationUrl>
+			<timezone>+1</timezone>
+		</contributor>
+		<contributor>
+			<name>Mark Hiner</name>
+			<email>hiner@wisc.edu</email>
+			<url>http://loci.wisc.edu/people/mark-hiner</url>
+			<organization>UW-Madison LOCI</organization>
+			<organizationUrl>http://loci.wisc.edu/</organizationUrl>
+			<timezone>-6</timezone>
+		</contributor>
+		<contributor>
+			<name>Lee Kamentsky</name>
+			<email>leek@broadinstitute.org</email>
+			<url>http://www.broadinstitute.org/~leek/</url>
+			<organization>Broad Institute of MIT and Harvard</organization>
+			<organizationUrl>http://www.broadinstitute.org/</organizationUrl>
+			<timezone>-5</timezone>
+		</contributor>
+		<contributor><name>Michael Zinsmaier</name></contributor>
+	</contributors>
+
+	<scm>
+		<connection>scm:git:git://github.com/imagej/imagej-deprecated</connection>
+		<developerConnection>scm:git:git@github.com:imagej/imagej-deprecated</developerConnection>
+		<tag>HEAD</tag>
+		<url>https://github.com/imagej/imagej-deprecated</url>
+	</scm>
+	<issueManagement>
+		<system>GitHub Issues</system>
+		<url>https://github.com/imagej/imagej-deprecated/issues</url>
+	</issueManagement>
+	<ciManagement>
+		<system>Jenkins</system>
+		<url>http://jenkins.imagej.net/job/ImageJ-Deprecated/</url>
+	</ciManagement>
+
+	<repositories>
+		<repository>
+			<id>imagej.public</id>
+			<url>http://maven.imagej.net/content/groups/public</url>
+		</repository>
+	</repositories>
+
+	<dependencies>
+		<!-- ImageJ dependencies -->
+		<dependency>
+			<groupId>net.imagej</groupId>
+			<artifactId>imagej-common</artifactId>
+		</dependency>
+
+		<!-- ImgLib2 dependencies -->
+		<dependency>
+			<groupId>net.imglib2</groupId>
+			<artifactId>imglib2</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>net.imglib2</groupId>
+			<artifactId>imglib2-roi</artifactId>
+		</dependency>
+
+		<!-- SciJava dependencies -->
+		<dependency>
+			<groupId>org.scijava</groupId>
+			<artifactId>scijava-common</artifactId>
+		</dependency>
+
+		<!-- Other dependencies -->
+		<dependency>
+			<groupId>edu.ucar</groupId>
+			<artifactId>udunits</artifactId>
+			<version>4.3.18</version>
+		</dependency>
+
+		<!-- Test scope dependencies -->
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<scope>test</scope>
+		</dependency>
+	</dependencies>
+
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.codehaus.mojo</groupId>
+				<artifactId>license-maven-plugin</artifactId>
+				<configuration>
+					<organizationName>Board of Regents of the University of
+Wisconsin-Madison, Broad Institute of MIT and Harvard, Max Planck Institute
+of Molecular Cell Biology and Genetics, and University of Konstanz.</organizationName>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+
+</project>
