@@ -40,7 +40,7 @@ import net.imglib2.type.numeric.RealType;
  * cosine of the real component of an input real number.
  * 
  * @author Barry DeZonia
- * @deprecated Use net.imagej.ops instead.
+ * @deprecated Use net.imagej.ops.math.RealMath.Arccosh instead.
  */
 @Deprecated
 public final class RealArccosh<I extends RealType<I>, O extends RealType<O>>

@@ -39,7 +39,7 @@ import net.imglib2.type.numeric.RealType;
  * constant value is specified in the constructor.
  * 
  * @author Barry DeZonia
- * @deprecated Use net.imagej.ops instead.
+ * @deprecated Use net.imagej.ops.math.RealMath.PowerConstant instead.
  */
 @Deprecated
 public final class RealPowerConstant<I extends RealType<I>, O extends RealType<O>>

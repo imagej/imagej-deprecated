@@ -38,7 +38,7 @@ import net.imglib2.type.numeric.RealType;
  * input argument to the operation.
  * 
  * @author Barry DeZonia
- * @deprecated Use net.imagej.ops instead.
+ * @deprecated Use net.imagej.ops.math.RealMath.ExpMinusOne instead.
  */
 @Deprecated
 public final class RealExpMinusOne<I extends RealType<I>, O extends RealType<O>>

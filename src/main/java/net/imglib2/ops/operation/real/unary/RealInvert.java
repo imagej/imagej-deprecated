@@ -39,7 +39,7 @@ import net.imglib2.type.numeric.RealType;
  * specified in the constructor.
  * 
  * @author Barry DeZonia
- * @deprecated Use net.imagej.ops instead.
+ * @deprecated Use net.imagej.ops.math.RealMath.Invert instead.
  */
 @Deprecated
 public final class RealInvert<I extends RealType<I>, O extends RealType<O>>

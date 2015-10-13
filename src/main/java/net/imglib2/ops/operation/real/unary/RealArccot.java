@@ -40,7 +40,7 @@ import net.imglib2.type.numeric.RealType;
  * of the real component of an input real number.
  * 
  * @author Barry DeZonia
- * @deprecated Use net.imagej.ops instead.
+ * @deprecated Use net.imagej.ops.math.RealMath.Arccot instead.
  */
 @Deprecated
 public final class RealArccot<I extends RealType<I>, O extends RealType<O>>

@@ -40,7 +40,7 @@ import net.imglib2.type.numeric.RealType;
  * next larger in magnitude. Note that for non-NaN x, ulp(-x) == ulp(x).
  * 
  * @author Barry DeZonia
- * @deprecated Use net.imagej.ops instead.
+ * @deprecated Use net.imagej.ops.Ops.Math.Ulp instead.
  */
 @Deprecated
 public final class RealUlp<I extends RealType<I>, O extends RealType<O>>

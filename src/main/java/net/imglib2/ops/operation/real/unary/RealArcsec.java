@@ -41,7 +41,7 @@ import net.imglib2.type.numeric.real.DoubleType;
  * the real component of an input real number.
  * 
  * @author Barry DeZonia
- * @deprecated Use net.imagej.ops instead.
+ * @deprecated Use net.imagej.ops.math.RealMath.Arcsec instead.
  */
 @Deprecated
 public final class RealArcsec<I extends RealType<I>, O extends RealType<O>>

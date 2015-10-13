@@ -38,7 +38,7 @@ import net.imglib2.type.numeric.RealType;
  * the real component of an input real number. (e raised to a power)
  * 
  * @author Barry DeZonia
- * @deprecated Use net.imagej.ops instead.
+ * @deprecated Use net.imagej.ops.math.RealMath.Exp instead.
  */
 @Deprecated
 public final class RealExp<I extends RealType<I>, O extends RealType<O>>

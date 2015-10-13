@@ -40,7 +40,7 @@ import net.imglib2.type.numeric.RealType;
  * cotangent of the real component of an input real number.
  * 
  * @author Barry DeZonia
- * @deprecated Use net.imagej.ops instead.
+ * @deprecated Use net.imagej.ops.math.RealMath.Arccoth instead.
  */
 @Deprecated
 public final class RealArccoth<I extends RealType<I>, O extends RealType<O>>

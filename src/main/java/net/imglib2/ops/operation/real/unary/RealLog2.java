@@ -38,7 +38,7 @@ import net.imglib2.type.numeric.RealType;
  * log of the real component of an input real number.
  * 
  * @author Barry DeZonia
- * @deprecated Use net.imagej.ops instead.
+ * @deprecated Use net.imagej.ops.math.RealMath.Log2 instead.
  */
 @Deprecated
 public final class RealLog2<I extends RealType<I>, O extends RealType<O>>
