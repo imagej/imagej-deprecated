@@ -10,7 +10,7 @@
 	</parent>
 
 	<artifactId>imagej-deprecated</artifactId>
-	<version>0.1.1-SNAPSHOT</version>
+	<version>0.1.1</version>
 
 	<name>ImageJ Deprecated</name>
 	<description>Deprecated ImageJ packages.</description>
@@ -130,7 +130,7 @@
 	<scm>
 		<connection>scm:git:git://github.com/imagej/imagej-deprecated</connection>
 		<developerConnection>scm:git:git@github.com:imagej/imagej-deprecated</developerConnection>
-		<tag>HEAD</tag>
+		<tag>imagej-deprecated-0.1.1</tag>
 		<url>https://github.com/imagej/imagej-deprecated</url>
 	</scm>
 	<issueManagement>
