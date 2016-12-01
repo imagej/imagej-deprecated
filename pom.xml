@@ -197,18 +197,4 @@ of Molecular Cell Biology and Genetics, and University of Konstanz.</license.cop
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
-
-	<build>
-		<plugins>
-			<plugin>
-				<groupId>org.codehaus.mojo</groupId>
-				<artifactId>license-maven-plugin</artifactId>
-				<configuration>
-					<organizationName>Board of Regents of the University of
-Wisconsin-Madison, Broad Institute of MIT and Harvard, Max Planck Institute
-of Molecular Cell Biology and Genetics, and University of Konstanz.</organizationName>
-				</configuration>
-			</plugin>
-		</plugins>
-	</build>
 </project>
