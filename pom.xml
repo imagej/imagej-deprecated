@@ -141,8 +141,8 @@
 		<url>https://github.com/imagej/imagej-deprecated/issues</url>
 	</issueManagement>
 	<ciManagement>
-		<system>Jenkins</system>
-		<url>http://jenkins.imagej.net/job/ImageJ-Deprecated/</url>
+		<system>Travis CI</system>
+		<url>https://travis-ci.org/imagej/imagej-deprecated</url>
 	</ciManagement>
 
 	<properties>
