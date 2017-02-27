@@ -1,4 +1,4 @@
-[![](http://jenkins.imagej.net/job/ImageJ-Deprecated/lastBuild/badge/icon)](http://jenkins.imagej.net/job/ImageJ-Deprecated/)
+[![](https://travis-ci.org/imagej/imagej-deprecated.svg?branch=master)](https://travis-ci.org/imagej/imagej-deprecated)
 
 ImageJ Deprecated Classes
 =========================
