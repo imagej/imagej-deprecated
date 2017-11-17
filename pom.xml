@@ -154,6 +154,14 @@ of Molecular Cell Biology and Genetics, and University of Konstanz.</license.cop
 
 		<!-- NB: Deploy releases to the ImageJ Maven repository. -->
 		<releaseProfiles>deploy-to-imagej</releaseProfiles>
+
+		<!--
+		NB: Disable the strict Java 8 doclint. For most ImageJ
+		components, we make the effort. But this component is
+		specifically classes which are deprecated, and discouraged
+		to use. So it is not worth it to fix the warnings here.
+		-->
+		<additionalparam>-Xdoclint:none</additionalparam>
 	</properties>
 
 	<repositories>
@@ -200,21 +208,4 @@ of Molecular Cell Biology and Genetics, and University of Konstanz.</license.cop
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
-
-	<build>
-		<plugins>
-			<plugin>
-				<artifactId>maven-javadoc-plugin</artifactId>
-				<configuration>
-					<!--
-					NB: Disable the strict Java 8 doclint. For most ImageJ
-					components, we make the effort. But this component is
-					specifically classes which are deprecated, and discouraged
-					to use. So it is not worth it to fix the warnings here.
-					-->
-					<additionalparam>-Xdoclint:none</additionalparam>
-				</configuration>
-			</plugin>
-		</plugins>
-	</build>
 </project>
