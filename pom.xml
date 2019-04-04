@@ -15,11 +15,11 @@
 
 	<name>ImageJ Deprecated</name>
 	<description>Deprecated ImageJ packages.</description>
-	<url>http://imagej.net/</url>
+	<url>https://imagej.net/</url>
 	<inceptionYear>2009</inceptionYear>
 	<organization>
 		<name>ImageJ</name>
-		<url>http://imagej.net/</url>
+		<url>https://imagej.net/</url>
 	</organization>
 	<licenses>
 		<license>
@@ -32,7 +32,7 @@
 		<developer>
 			<id>ctrueden</id>
 			<name>Curtis Rueden</name>
-			<url>http://imagej.net/User:Rueden</url>
+			<url>https://imagej.net/User:Rueden</url>
 			<roles>
 				<role>founder</role>
 				<role>lead</role>
@@ -47,19 +47,19 @@
 	<contributors>
 		<contributor>
 			<name>Barry DeZonia</name>
-			<url>http://imagej.net/User:Bdezonia</url>
+			<url>https://imagej.net/User:Bdezonia</url>
 			<roles><role>founder</role></roles>
 			<properties><id>bdezonia</id></properties>
 		</contributor>
 		<contributor>
 			<name>Christian Dietz</name>
-			<url>http://imagej.net/User:Dietzc</url>
+			<url>https://imagej.net/User:Dietzc</url>
 			<roles><role>founder</role></roles>
 			<properties><id>dietzc</id></properties>
 		</contributor>
 		<contributor>
 			<name>Mark Hiner</name>
-			<url>http://imagej.net/User:Hinerm</url>
+			<url>https://imagej.net/User:Hinerm</url>
 			<properties><id>hinerm</id></properties>
 		</contributor>
 		<contributor>
@@ -74,12 +74,12 @@
 		</contributor>
 		<contributor>
 			<name>Lee Kamentsky</name>
-			<url>http://imagej.net/User:Leek</url>
+			<url>https://imagej.net/User:Leek</url>
 			<properties><id>LeeKamentsky</id></properties>
 		</contributor>
 		<contributor>
 			<name>Gabriel Landini</name>
-			<url>http://imagej.net/User:Landini</url>
+			<url>https://imagej.net/User:Landini</url>
 			<properties><id>landinig</id></properties>
 		</contributor>
 		<contributor>
@@ -89,12 +89,12 @@
 		<contributor><name>Clemens Muething</name></contributor>
 		<contributor>
 			<name>Tobias Pietzsch</name>
-			<url>http://imagej.net/User:Pietzsch</url>
+			<url>https://imagej.net/User:Pietzsch</url>
 			<properties><id>tpietzsch</id></properties>
 		</contributor>
 		<contributor>
 			<name>Stephan Preibisch</name>
-			<url>http://imagej.net/User:StephanP</url>
+			<url>https://imagej.net/User:StephanP</url>
 			<properties><id>StephanPreibisch</id></properties>
 		</contributor>
 		<contributor>
@@ -103,7 +103,7 @@
 		</contributor>
 		<contributor>
 			<name>Stephan Saalfeld</name>
-			<url>http://imagej.net/User:Saalfeld</url>
+			<url>https://imagej.net/User:Saalfeld</url>
 			<properties><id>axtimwalde</id></properties>
 		</contributor>
 		<contributor><name>Felix Schoenenberger</name></contributor>
@@ -114,7 +114,7 @@
 		<contributor><name>Stephan Sellien</name></contributor>
 		<contributor>
 			<name>Jean-Yves Tinevez</name>
-			<url>http://imagej.net/User:JeanYvesTinevez</url>
+			<url>https://imagej.net/User:JeanYvesTinevez</url>
 			<properties><id>tinevez</id></properties>
 		</contributor>
 		<contributor>
@@ -126,7 +126,7 @@
 	<mailingLists>
 		<mailingList>
 			<name>Image.sc Forum</name>
-			<archive>https://forum.image.sc/</archive>
+			<archive>https://forum.image.sc/tags/imagej</archive>
 		</mailingList>
 	</mailingLists>
 
@@ -167,7 +167,7 @@ of Molecular Cell Biology and Genetics, and University of Konstanz.</license.cop
 	<repositories>
 		<repository>
 			<id>imagej.public</id>
-			<url>http://maven.imagej.net/content/groups/public</url>
+			<url>https://maven.imagej.net/content/groups/public</url>
 		</repository>
 	</repositories>
 
