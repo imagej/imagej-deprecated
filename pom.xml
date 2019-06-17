@@ -161,7 +161,7 @@ of Molecular Cell Biology and Genetics, and University of Konstanz.</license.cop
 		specifically classes which are deprecated, and discouraged
 		to use. So it is not worth it to fix the warnings here.
 		-->
-		<additionalparam>-Xdoclint:none</additionalparam>
+		<doclint>none</doclint>
 	</properties>
 
 	<repositories>
