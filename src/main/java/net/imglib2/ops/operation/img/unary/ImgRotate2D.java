@@ -134,7 +134,7 @@ public class ImgRotate2D< T extends Type< T > & Comparable< T >> implements Unar
 		long[] dims = new long[ min.length ];
 		for ( int i = 0; i < dims.length; i++ )
 		{
-			dims[ i ] = max[ i ] - min[ i ];
+			dims[ i ] = max[ i ] - min[ i ] + 1;
 		}
 
 		return op.factory().create( new FinalInterval( dims ), op.randomAccess().get().createVariable() );
