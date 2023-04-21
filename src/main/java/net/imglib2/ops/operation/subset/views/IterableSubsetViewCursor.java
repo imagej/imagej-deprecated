@@ -107,12 +107,6 @@ class IterableSubsetViewCursor< T extends Type< T >> implements Cursor< T >
 	}
 
 	@Override
-	public Sampler< T > copy()
-	{
-		return cursor.copy();
-	}
-
-	@Override
 	public void jumpFwd( long steps )
 	{
 		cursor.jumpFwd( ( int ) steps );
@@ -187,7 +181,7 @@ class IterableSubsetViewCursor< T extends Type< T >> implements Cursor< T >
 	}
 
 	@Override
-	public Cursor< T > copyCursor()
+	public Cursor< T > copy()
 	{
 		return new IterableSubsetViewCursor< T >( cursor.copyCursor(), planeSize, planePos, numPlaneDims );
 	}
